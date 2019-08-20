@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<select id="demo">
+	 <option value="option1">Red</option>
+  <option value="option2">Blue</option>
+  <option value="option3">Black</option>
+  <option value="option4">White</option>
+</select>
+<input type="text" id="str">
+<button type="button" onclick=" return myfunction()">Click Me!</button>
+<script type="text/javascript">
+	function myfunction(){
+	var param=document.getElementById("str").value;	
+    var s=document.getElementById("demo") ;
+        s.remove(param);
+
+	}
+</script>
+</body>
+</html>
+
